@@ -1,0 +1,13 @@
+set,transition,source,seasons,median_weighted,median_unweighted
+development,autumn,insitu,762,24.0,19.0
+development,autumn,model,762,10.0,20.0
+development,autumn,smos,762,6.0,5.0
+external,autumn,insitu,21,22.0,29.0
+external,autumn,model,21,0.0,9.0
+external,autumn,smos,21,0.0,13.0
+development,spring,insitu,762,31.0,37.0
+development,spring,model,762,12.0,20.5
+development,spring,smos,762,0.0,0.0
+external,spring,insitu,21,39.0,42.0
+external,spring,model,21,0.0,6.0
+external,spring,smos,21,0.0,0.0

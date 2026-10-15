@@ -1,0 +1,5 @@
+index,days,frozen_days,frozen_share_weighted,auc_raw,auc_standardized
+npr,713301,78307,0.141,0.697,0.834
+ndv,736732,78440,0.137,0.939,0.948
+ndh,736732,78440,0.137,0.756,0.823
+wd,713310,78307,0.141,0.922,0.928

@@ -1,0 +1,225 @@
+set,group_by,group,event,retrieval,pairs,seasons_insitu,n,missed,extra,bias,median_difference,mad,r,sdd
+development,all,all,first_transition,model,own,2630,2468,0.178,0.438,0.454,2.0,18.0,0.554,39.744
+development,all,all,first_transition,model,common,2630,2253,0.178,0.438,-1.711,2.0,18.0,0.487,37.16
+development,all,all,first_transition,smos,own,2630,2306,0.302,0.297,-1.127,4.0,14.0,0.53,33.666
+development,all,all,first_transition,smos,common,2630,2253,0.302,0.297,-0.719,5.0,15.0,0.542,32.503
+development,all,all,first_frozen,model,own,1134,797,0.266,0.321,1.734,1.0,26.0,0.322,47.803
+development,all,all,first_frozen,model,common,1134,762,0.266,0.321,-0.302,0.0,27.0,0.268,49.986
+development,all,all,first_frozen,smos,own,1134,1039,0.189,0.502,-6.462,0.0,18.0,0.412,36.625
+development,all,all,first_frozen,smos,common,1134,762,0.189,0.502,-9.374,-3.0,18.0,0.447,36.774
+development,all,all,last_frozen,model,own,1134,797,0.266,0.321,25.327,9.0,17.0,0.248,51.334
+development,all,all,last_frozen,model,common,1134,762,0.266,0.321,19.649,7.0,16.0,0.326,47.861
+development,all,all,last_frozen,smos,own,1134,1039,0.189,0.502,28.565,14.0,21.0,0.391,46.271
+development,all,all,last_frozen,smos,common,1134,762,0.189,0.502,23.702,11.0,18.0,0.377,43.414
+development,all,all,last_transition,model,own,2630,2468,0.178,0.438,-0.761,-6.0,15.0,0.603,36.813
+development,all,all,last_transition,model,common,2630,2253,0.178,0.438,-5.04,-7.0,15.0,0.627,31.639
+development,all,all,last_transition,smos,own,2630,2306,0.302,0.297,-18.998,-18.0,22.0,0.604,30.418
+development,all,all,last_transition,smos,common,2630,2253,0.302,0.297,-18.551,-17.0,22.0,0.602,30.112
+development,roughness_class,0-25 m,first_transition,model,own,548,459,0.227,0.272,3.912,3.0,16.0,0.652,30.264
+development,roughness_class,0-25 m,first_transition,model,common,548,407,0.227,0.272,2.893,3.0,17.0,0.535,30.428
+development,roughness_class,0-25 m,first_transition,smos,own,548,427,0.333,0.128,-0.459,2.0,12.0,0.627,23.86
+development,roughness_class,0-25 m,first_transition,smos,common,548,407,0.333,0.128,-0.692,2.0,13.0,0.624,24.209
+development,roughness_class,0-25 m,first_frozen,model,own,332,298,0.159,0.294,-13.401,-6.0,21.0,0.277,46.249
+development,roughness_class,0-25 m,first_frozen,model,common,332,285,0.159,0.294,-15.961,-7.0,24.0,0.233,47.923
+development,roughness_class,0-25 m,first_frozen,smos,own,332,305,0.203,0.362,-21.232,-10.0,17.0,0.311,39.692
+development,roughness_class,0-25 m,first_frozen,smos,common,332,285,0.203,0.362,-22.467,-13.0,18.0,0.328,39.847
+development,roughness_class,0-25 m,last_frozen,model,own,332,298,0.159,0.294,12.972,5.0,12.0,0.193,44.784
+development,roughness_class,0-25 m,last_frozen,model,common,332,285,0.159,0.294,7.796,4.0,11.0,0.301,38.782
+development,roughness_class,0-25 m,last_frozen,smos,own,332,305,0.203,0.362,8.324,7.0,14.0,0.442,32.654
+development,roughness_class,0-25 m,last_frozen,smos,common,332,285,0.203,0.362,8.852,8.0,14.0,0.413,33.033
+development,roughness_class,0-25 m,last_transition,model,own,548,459,0.227,0.272,-8.114,-7.0,13.0,0.714,29.354
+development,roughness_class,0-25 m,last_transition,model,common,548,407,0.227,0.272,-11.308,-9.0,13.0,0.677,26.782
+development,roughness_class,0-25 m,last_transition,smos,own,548,427,0.333,0.128,-12.593,-10.0,13.0,0.81,18.535
+development,roughness_class,0-25 m,last_transition,smos,common,548,407,0.333,0.128,-12.346,-10.0,13.0,0.814,18.024
+development,roughness_class,25-75 m,first_transition,model,own,256,231,0.147,0.38,5.617,6.0,21.0,0.567,34.185
+development,roughness_class,25-75 m,first_transition,model,common,256,188,0.147,0.38,5.289,6.0,21.0,0.567,34.787
+development,roughness_class,25-75 m,first_transition,smos,own,256,198,0.25,0.231,2.747,5.0,14.0,0.609,29.248
+development,roughness_class,25-75 m,first_transition,smos,common,256,188,0.25,0.231,3.191,6.0,14.0,0.62,29.002
+development,roughness_class,25-75 m,first_frozen,model,own,170,149,0.117,0.443,1.32,6.0,26.0,0.396,40.585
+development,roughness_class,25-75 m,first_frozen,model,common,170,134,0.117,0.443,-1.51,6.0,28.0,0.366,42.108
+development,roughness_class,25-75 m,first_frozen,smos,own,170,147,0.202,0.486,-2.12,0.0,21.0,0.385,33.597
+development,roughness_class,25-75 m,first_frozen,smos,common,170,134,0.202,0.486,-2.547,2.0,19.0,0.374,33.846
+development,roughness_class,25-75 m,last_frozen,model,own,170,149,0.117,0.443,28.039,11.0,19.0,0.254,50.169
+development,roughness_class,25-75 m,last_frozen,model,common,170,134,0.117,0.443,21.01,6.0,14.0,0.356,45.625
+development,roughness_class,25-75 m,last_frozen,smos,own,170,147,0.202,0.486,22.558,11.0,12.0,0.668,30.718
+development,roughness_class,25-75 m,last_frozen,smos,common,170,134,0.202,0.486,23.001,11.0,13.0,0.666,30.963
+development,roughness_class,25-75 m,last_transition,model,own,256,231,0.147,0.38,7.877,-2.0,11.0,0.552,35.178
+development,roughness_class,25-75 m,last_transition,model,common,256,188,0.147,0.38,4.957,-2.0,11.0,0.654,29.998
+development,roughness_class,25-75 m,last_transition,smos,own,256,198,0.25,0.231,-7.323,-7.0,14.0,0.697,26.557
+development,roughness_class,25-75 m,last_transition,smos,common,256,188,0.25,0.231,-6.987,-7.0,14.0,0.703,26.204
+development,roughness_class,75-150 m,first_transition,model,own,650,635,0.122,0.649,-4.876,0.0,21.0,0.442,45.361
+development,roughness_class,75-150 m,first_transition,model,common,650,586,0.122,0.649,-9.501,-1.0,19.0,0.332,40.599
+development,roughness_class,75-150 m,first_transition,smos,own,650,588,0.203,0.547,-3.655,7.0,18.0,0.408,41.011
+development,roughness_class,75-150 m,first_transition,smos,common,650,586,0.203,0.547,-1.688,7.0,18.0,0.473,35.18
+development,roughness_class,75-150 m,first_frozen,model,own,238,152,0.427,0.355,24.09,19.0,27.0,0.137,49.642
+development,roughness_class,75-150 m,first_frozen,model,common,238,151,0.427,0.355,24.594,21.0,30.0,0.12,50.603
+development,roughness_class,75-150 m,first_frozen,smos,own,238,223,0.088,0.716,7.662,9.0,17.0,0.335,28.807
+development,roughness_class,75-150 m,first_frozen,smos,common,238,151,0.088,0.716,1.078,7.0,17.0,0.444,25.325
+development,roughness_class,75-150 m,last_frozen,model,own,238,152,0.427,0.355,45.691,40.0,44.0,0.445,47.092
+development,roughness_class,75-150 m,last_frozen,model,common,238,151,0.427,0.355,45.762,39.0,39.0,0.424,48.062
+development,roughness_class,75-150 m,last_frozen,smos,own,238,223,0.088,0.716,48.073,44.0,44.0,0.56,44.614
+development,roughness_class,75-150 m,last_frozen,smos,common,238,151,0.088,0.716,48.885,36.0,36.0,0.538,44.766
+development,roughness_class,75-150 m,last_transition,model,own,650,635,0.122,0.649,9.005,-1.0,17.0,0.359,39.833
+development,roughness_class,75-150 m,last_transition,model,common,650,586,0.122,0.649,4.458,-3.0,16.0,0.404,34.973
+development,roughness_class,75-150 m,last_transition,smos,own,650,588,0.203,0.547,-19.704,-23.0,29.0,0.41,35.021
+development,roughness_class,75-150 m,last_transition,smos,common,650,586,0.203,0.547,-19.972,-23.0,28.0,0.424,33.725
+development,roughness_class,>150 m,first_transition,model,own,1176,1143,0.106,0.704,-7.404,-2.0,25.0,0.269,49.605
+development,roughness_class,>150 m,first_transition,model,common,1176,1072,0.106,0.704,-6.852,-2.0,22.0,0.286,44.459
+development,roughness_class,>150 m,first_transition,smos,own,1176,1093,0.202,0.528,-1.225,7.0,22.0,0.222,41.727
+development,roughness_class,>150 m,first_transition,smos,common,1176,1072,0.202,0.528,-1.655,7.0,22.0,0.116,41.931
+development,roughness_class,>150 m,first_frozen,model,own,394,198,0.452,0.35,40.371,42.0,47.0,0.292,45.869
+development,roughness_class,>150 m,first_frozen,model,common,394,192,0.452,0.35,40.185,36.0,46.0,0.218,47.919
+development,roughness_class,>150 m,first_frozen,smos,own,394,364,0.078,0.701,8.563,11.0,20.0,0.392,35.09
+development,roughness_class,>150 m,first_frozen,smos,common,394,192,0.078,0.701,6.489,12.0,20.0,0.435,36.453
+development,roughness_class,>150 m,last_frozen,model,own,394,198,0.452,0.35,44.801,49.0,60.0,0.039,64.628
+development,roughness_class,>150 m,last_frozen,model,common,394,192,0.452,0.35,42.28,41.0,55.0,0.057,65.877
+development,roughness_class,>150 m,last_frozen,smos,own,394,364,0.078,0.701,58.234,60.0,73.0,0.122,58.198
+development,roughness_class,>150 m,last_frozen,smos,common,394,192,0.078,0.701,56.263,64.0,78.0,0.077,61.46
+development,roughness_class,>150 m,last_transition,model,own,1176,1143,0.106,0.704,1.619,-3.0,25.0,0.433,44.339
+development,roughness_class,>150 m,last_transition,model,common,1176,1072,0.106,0.704,-1.143,-3.0,25.0,0.498,42.096
+development,roughness_class,>150 m,last_transition,smos,own,1176,1093,0.202,0.528,-28.274,-34.0,41.0,0.379,42.493
+development,roughness_class,>150 m,last_transition,smos,common,1176,1072,0.202,0.528,-26.807,-33.0,41.0,0.375,43.479
+development,tree_class,10-30%,first_transition,model,own,207,181,0.18,0.319,9.04,10.0,16.0,0.735,27.881
+development,tree_class,10-30%,first_transition,model,common,207,135,0.18,0.319,9.756,11.0,23.0,0.463,30.048
+development,tree_class,10-30%,first_transition,smos,own,207,138,0.434,0.105,10.036,10.0,13.0,0.695,20.151
+development,tree_class,10-30%,first_transition,smos,common,207,135,0.434,0.105,10.134,11.0,15.0,0.704,20.248
+development,tree_class,10-30%,first_frozen,model,own,90,64,0.307,0.337,8.886,14.0,30.0,0.31,41.991
+development,tree_class,10-30%,first_frozen,model,common,90,57,0.307,0.337,8.522,17.0,41.0,0.211,47.289
+development,tree_class,10-30%,first_frozen,smos,own,90,72,0.295,0.396,-6.128,2.0,18.0,0.292,35.673
+development,tree_class,10-30%,first_frozen,smos,common,90,57,0.295,0.396,-10.724,-5.0,21.0,0.352,35.299
+development,tree_class,10-30%,last_frozen,model,own,90,64,0.307,0.337,33.314,22.0,31.0,0.356,43.882
+development,tree_class,10-30%,last_frozen,model,common,90,57,0.307,0.337,34.608,31.0,31.0,0.363,43.304
+development,tree_class,10-30%,last_frozen,smos,own,90,72,0.295,0.396,43.755,44.0,49.0,0.241,47.128
+development,tree_class,10-30%,last_frozen,smos,common,90,57,0.295,0.396,38.637,32.0,44.0,0.238,44.886
+development,tree_class,10-30%,last_transition,model,own,207,181,0.18,0.319,-5.39,-11.0,18.0,0.749,31.113
+development,tree_class,10-30%,last_transition,model,common,207,135,0.18,0.319,-7.147,-13.0,21.0,0.541,30.988
+development,tree_class,10-30%,last_transition,smos,own,207,138,0.434,0.105,-21.27,-19.0,22.0,0.556,29.446
+development,tree_class,10-30%,last_transition,smos,common,207,135,0.434,0.105,-21.525,-19.0,21.0,0.532,29.014
+development,tree_class,30-60%,first_transition,model,own,1126,1096,0.094,0.544,-5.496,1.0,21.0,0.379,50.849
+development,tree_class,30-60%,first_transition,model,common,1126,1046,0.094,0.544,-10.174,0.0,21.0,0.152,47.337
+development,tree_class,30-60%,first_transition,smos,own,1126,1063,0.224,0.44,0.241,8.0,21.0,0.21,43.845
+development,tree_class,30-60%,first_transition,smos,common,1126,1046,0.224,0.44,0.036,8.0,21.0,0.21,43.969
+development,tree_class,30-60%,first_frozen,model,own,401,229,0.462,0.415,28.936,27.0,42.0,-0.118,57.882
+development,tree_class,30-60%,first_frozen,model,common,401,226,0.462,0.415,29.822,28.0,45.0,-0.143,58.987
+development,tree_class,30-60%,first_frozen,smos,own,401,378,0.097,0.643,10.941,15.0,22.0,0.227,38.219
+development,tree_class,30-60%,first_frozen,smos,common,401,226,0.097,0.643,5.033,13.0,21.0,0.266,41.116
+development,tree_class,30-60%,last_frozen,model,own,401,229,0.462,0.415,29.043,16.0,24.0,0.327,51.314
+development,tree_class,30-60%,last_frozen,model,common,401,226,0.462,0.415,30.617,17.0,26.0,0.319,52.116
+development,tree_class,30-60%,last_frozen,smos,own,401,378,0.097,0.643,46.592,34.0,37.0,0.388,50.797
+development,tree_class,30-60%,last_frozen,smos,common,401,226,0.097,0.643,43.503,31.0,34.0,0.257,51.537
+development,tree_class,30-60%,last_transition,model,own,1126,1096,0.094,0.544,2.968,-3.0,14.0,0.294,40.523
+development,tree_class,30-60%,last_transition,model,common,1126,1046,0.094,0.544,-1.705,-4.0,14.0,0.253,35.913
+development,tree_class,30-60%,last_transition,smos,own,1126,1063,0.224,0.44,-28.705,-28.0,30.0,0.29,34.412
+development,tree_class,30-60%,last_transition,smos,common,1126,1046,0.224,0.44,-28.465,-28.0,30.0,0.289,34.329
+development,tree_class,<10%,first_transition,model,own,690,609,0.152,0.383,6.992,5.0,17.0,0.64,31.525
+development,tree_class,<10%,first_transition,model,common,690,537,0.152,0.383,7.243,6.0,17.0,0.608,30.592
+development,tree_class,<10%,first_transition,smos,own,690,559,0.264,0.281,4.869,4.0,11.0,0.723,21.649
+development,tree_class,<10%,first_transition,smos,common,690,537,0.264,0.281,4.64,5.0,11.0,0.706,22.232
+development,tree_class,<10%,first_frozen,model,own,460,398,0.183,0.44,-1.441,-2.0,22.0,0.461,40.18
+development,tree_class,<10%,first_frozen,model,common,460,373,0.183,0.44,-4.193,-2.0,23.0,0.398,41.568
+development,tree_class,<10%,first_frozen,smos,own,460,417,0.202,0.455,-4.951,0.0,17.0,0.342,33.275
+development,tree_class,<10%,first_frozen,smos,common,460,373,0.202,0.455,-5.468,0.0,17.0,0.343,33.891
+development,tree_class,<10%,last_frozen,model,own,460,398,0.183,0.44,29.401,10.0,19.0,0.144,53.3
+development,tree_class,<10%,last_frozen,model,common,460,373,0.183,0.44,21.103,7.0,12.0,0.284,47.931
+development,tree_class,<10%,last_frozen,smos,own,460,417,0.202,0.455,19.29,10.0,16.0,0.456,38.03
+development,tree_class,<10%,last_frozen,smos,common,460,373,0.202,0.455,18.961,10.0,15.0,0.451,38.18
+development,tree_class,<10%,last_transition,model,own,690,609,0.152,0.383,4.697,-3.0,13.0,0.466,37.524
+development,tree_class,<10%,last_transition,model,common,690,537,0.152,0.383,-0.388,-4.0,13.0,0.566,32.309
+development,tree_class,<10%,last_transition,smos,own,690,559,0.264,0.281,-6.384,-5.0,12.0,0.656,25.115
+development,tree_class,<10%,last_transition,smos,common,690,537,0.264,0.281,-6.131,-5.0,12.0,0.656,25.069
+development,tree_class,>60%,first_transition,model,own,607,582,0.166,0.503,-7.744,-4.0,22.0,0.407,43.864
+development,tree_class,>60%,first_transition,model,common,607,535,0.166,0.503,-8.495,-4.0,20.0,0.466,38.573
+development,tree_class,>60%,first_transition,smos,own,607,546,0.229,0.367,-7.136,1.0,18.0,0.392,39.601
+development,tree_class,>60%,first_transition,smos,common,607,535,0.229,0.367,-5.871,1.0,18.0,0.417,36.944
+development,tree_class,>60%,first_frozen,model,own,183,106,0.413,0.187,10.738,11.0,44.0,0.152,66.149
+development,tree_class,>60%,first_frozen,model,common,183,106,0.413,0.187,10.738,11.0,44.0,0.152,66.149
+development,tree_class,>60%,first_frozen,smos,own,183,172,0.077,0.592,-5.299,1.0,23.0,0.487,40.001
+development,tree_class,>60%,first_frozen,smos,common,183,106,0.077,0.592,-14.777,-4.0,20.0,0.678,37.115
+development,tree_class,>60%,last_frozen,model,own,183,106,0.413,0.187,13.733,8.0,23.0,0.189,52.866
+development,tree_class,>60%,last_frozen,model,common,183,106,0.413,0.187,13.733,8.0,23.0,0.189,52.866
+development,tree_class,>60%,last_frozen,smos,own,183,172,0.077,0.592,45.279,43.0,45.0,0.289,56.737
+development,tree_class,>60%,last_frozen,smos,common,183,106,0.077,0.592,34.907,34.0,37.0,-0.178,52.498
+development,tree_class,>60%,last_transition,model,own,607,582,0.166,0.503,-4.063,-8.0,18.0,0.445,39.202
+development,tree_class,>60%,last_transition,model,common,607,535,0.166,0.503,-6.852,-10.0,18.0,0.482,35.876
+development,tree_class,>60%,last_transition,smos,own,607,546,0.229,0.367,-25.832,-27.0,31.0,0.418,35.673
+development,tree_class,>60%,last_transition,smos,common,607,535,0.229,0.367,-24.902,-26.0,31.0,0.416,35.334
+external,all,all,first_transition,model,own,136,123,0.1,,14.851,8.0,17.0,0.553,30.233
+external,all,all,first_transition,model,common,136,23,0.1,,-2.826,-3.0,14.0,0.442,14.13
+external,all,all,first_transition,smos,own,136,23,0.896,,40.917,29.0,29.0,-0.158,39.742
+external,all,all,first_transition,smos,common,136,23,0.896,,40.917,29.0,29.0,-0.158,39.742
+external,all,all,first_frozen,model,own,124,107,0.198,0.75,13.348,17.0,20.0,0.358,31.372
+external,all,all,first_frozen,model,common,124,21,0.198,0.75,-20.627,-25.0,25.0,0.476,20.23
+external,all,all,first_frozen,smos,own,124,21,0.896,0.25,23.04,9.0,30.0,-0.112,35.35
+external,all,all,first_frozen,smos,common,124,21,0.896,0.25,23.04,9.0,30.0,-0.112,35.35
+external,all,all,last_frozen,model,own,124,107,0.198,0.75,9.586,0.0,15.0,0.61,26.249
+external,all,all,last_frozen,model,common,124,21,0.198,0.75,36.754,37.0,37.0,0.313,22.015
+external,all,all,last_frozen,smos,own,124,21,0.896,0.25,18.762,13.0,13.0,0.27,27.689
+external,all,all,last_frozen,smos,common,124,21,0.896,0.25,18.762,13.0,13.0,0.27,27.689
+external,all,all,last_transition,model,own,136,123,0.1,,-13.091,-8.0,13.0,0.799,20.323
+external,all,all,last_transition,model,common,136,23,0.1,,0.264,-2.0,3.0,0.724,8.192
+external,all,all,last_transition,smos,own,136,23,0.896,,-20.535,-24.0,26.0,0.254,23.737
+external,all,all,last_transition,smos,common,136,23,0.896,,-20.535,-24.0,26.0,0.254,23.737
+external,tree_class,10-30%,first_transition,model,own,8,7,0.125,,28.143,22.0,22.0,-0.161,20.856
+external,tree_class,10-30%,first_transition,model,common,8,0,0.125,,,,,,
+external,tree_class,10-30%,first_transition,smos,own,8,0,1.0,,,,,,
+external,tree_class,10-30%,first_transition,smos,common,8,0,1.0,,,,,,
+external,tree_class,10-30%,first_frozen,model,own,4,0,1.0,0.5,,,,,
+external,tree_class,10-30%,first_frozen,model,common,4,0,1.0,0.5,,,,,
+external,tree_class,10-30%,first_frozen,smos,own,4,0,1.0,0.0,,,,,
+external,tree_class,10-30%,first_frozen,smos,common,4,0,1.0,0.0,,,,,
+external,tree_class,10-30%,last_frozen,model,own,4,0,1.0,0.5,,,,,
+external,tree_class,10-30%,last_frozen,model,common,4,0,1.0,0.5,,,,,
+external,tree_class,10-30%,last_frozen,smos,own,4,0,1.0,0.0,,,,,
+external,tree_class,10-30%,last_frozen,smos,common,4,0,1.0,0.0,,,,,
+external,tree_class,10-30%,last_transition,model,own,8,7,0.125,,-16.857,-18.0,18.0,0.534,13.109
+external,tree_class,10-30%,last_transition,model,common,8,0,0.125,,,,,,
+external,tree_class,10-30%,last_transition,smos,own,8,0,1.0,,,,,,
+external,tree_class,10-30%,last_transition,smos,common,8,0,1.0,,,,,,
+external,tree_class,30-60%,first_transition,model,own,1,1,0.0,,,,,,
+external,tree_class,30-60%,first_transition,model,common,1,0,0.0,,,,,,
+external,tree_class,30-60%,first_transition,smos,own,1,0,1.0,,,,,,
+external,tree_class,30-60%,first_transition,smos,common,1,0,1.0,,,,,,
+external,tree_class,30-60%,first_frozen,model,own,1,0,1.0,,,,,,
+external,tree_class,30-60%,first_frozen,model,common,1,0,1.0,,,,,,
+external,tree_class,30-60%,first_frozen,smos,own,1,0,1.0,,,,,,
+external,tree_class,30-60%,first_frozen,smos,common,1,0,1.0,,,,,,
+external,tree_class,30-60%,last_frozen,model,own,1,0,1.0,,,,,,
+external,tree_class,30-60%,last_frozen,model,common,1,0,1.0,,,,,,
+external,tree_class,30-60%,last_frozen,smos,own,1,0,1.0,,,,,,
+external,tree_class,30-60%,last_frozen,smos,common,1,0,1.0,,,,,,
+external,tree_class,30-60%,last_transition,model,own,1,1,0.0,,,,,,
+external,tree_class,30-60%,last_transition,model,common,1,0,0.0,,,,,,
+external,tree_class,30-60%,last_transition,smos,own,1,0,1.0,,,,,,
+external,tree_class,30-60%,last_transition,smos,common,1,0,1.0,,,,,,
+external,tree_class,<10%,first_transition,model,own,111,99,0.107,,14.858,8.0,19.0,0.463,31.502
+external,tree_class,<10%,first_transition,model,common,111,7,0.107,,-3.833,-14.0,14.0,0.419,14.415
+external,tree_class,<10%,first_transition,smos,own,111,7,0.968,,59.25,81.0,81.0,-0.231,35.462
+external,tree_class,<10%,first_transition,smos,common,111,7,0.968,,59.25,81.0,81.0,-0.231,35.462
+external,tree_class,<10%,first_frozen,model,own,105,93,0.124,0.75,15.308,17.0,20.0,0.387,31.331
+external,tree_class,<10%,first_frozen,model,common,105,7,0.124,0.75,-26.833,-36.0,36.0,0.239,15.673
+external,tree_class,<10%,first_frozen,smos,own,105,7,0.968,0.0,38.417,59.0,59.0,0.118,31.505
+external,tree_class,<10%,first_frozen,smos,common,105,7,0.968,0.0,38.417,59.0,59.0,0.118,31.505
+external,tree_class,<10%,last_frozen,model,own,105,93,0.124,0.75,7.373,0.0,14.0,0.634,24.411
+external,tree_class,<10%,last_frozen,model,common,105,7,0.124,0.75,38.167,37.0,37.0,-0.075,13.698
+external,tree_class,<10%,last_frozen,smos,own,105,7,0.968,0.0,17.0,13.0,13.0,0.649,24.256
+external,tree_class,<10%,last_frozen,smos,common,105,7,0.968,0.0,17.0,13.0,13.0,0.649,24.256
+external,tree_class,<10%,last_transition,model,own,111,99,0.107,,-13.291,-12.0,14.0,0.698,21.256
+external,tree_class,<10%,last_transition,model,common,111,7,0.107,,1.833,-2.0,2.0,0.613,9.485
+external,tree_class,<10%,last_transition,smos,own,111,7,0.968,,-19.333,-26.0,26.0,0.141,28.241
+external,tree_class,<10%,last_transition,smos,common,111,7,0.968,,-19.333,-26.0,26.0,0.141,28.241
+external,tree_class,>60%,first_transition,model,own,16,16,0.0,,-0.812,-1.0,4.0,0.516,13.315
+external,tree_class,>60%,first_transition,model,common,16,16,0.0,,-0.812,-1.0,4.0,0.516,13.315
+external,tree_class,>60%,first_transition,smos,own,16,16,0.0,,4.25,5.0,7.0,0.404,14.372
+external,tree_class,>60%,first_transition,smos,common,16,16,0.0,,4.25,5.0,7.0,0.404,14.372
+external,tree_class,>60%,first_frozen,model,own,14,14,0.0,1.0,-8.214,1.0,12.0,0.255,22.479
+external,tree_class,>60%,first_frozen,model,common,14,14,0.0,1.0,-8.214,1.0,12.0,0.255,22.479
+external,tree_class,>60%,first_frozen,smos,own,14,14,0.0,1.0,-7.714,-11.0,13.0,0.548,18.576
+external,tree_class,>60%,first_frozen,smos,common,14,14,0.0,1.0,-7.714,-11.0,13.0,0.548,18.576
+external,tree_class,>60%,last_frozen,model,own,14,14,0.0,1.0,33.929,32.0,32.0,0.454,32.662
+external,tree_class,>60%,last_frozen,model,common,14,14,0.0,1.0,33.929,32.0,32.0,0.454,32.662
+external,tree_class,>60%,last_frozen,smos,own,14,14,0.0,1.0,22.286,13.0,20.0,0.435,33.238
+external,tree_class,>60%,last_frozen,smos,common,14,14,0.0,1.0,22.286,13.0,20.0,0.435,33.238
+external,tree_class,>60%,last_transition,model,own,16,16,0.0,,-2.875,-3.0,2.0,0.921,2.571
+external,tree_class,>60%,last_transition,model,common,16,16,0.0,,-2.875,-3.0,2.0,0.921,2.571
+external,tree_class,>60%,last_transition,smos,own,16,16,0.0,,-22.938,-24.0,23.0,0.361,9.304
+external,tree_class,>60%,last_transition,smos,common,16,16,0.0,,-22.938,-24.0,23.0,0.361,9.304

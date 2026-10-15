@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Environments
+.venv/
+.env
+
+# Data: never commit (published on Zenodo / fetched from providers)
+data/
+*.zarr/
+*.zarr.zip
+*.nc
+*.parquet
+*.pkl
+*.joblib
+*.npy
+*.npz
+*.tif
+*.grib
+*.h5
+
+# Local config override
+config/paths.local.yaml
+
+# Generated outputs (small final tables in results/tables are tracked)
+results/*
+!results/tables/
+!results/tables/**
+figures/
+
+# LaTeX build artifacts
+paper/*_diff.tex
+paper/*.pdf
+paper/**/*.aux
+paper/**/*.log
+paper/**/*.fls
+paper/**/*.fdb_latexmk
+paper/**/*.synctex.gz
+paper/**/*.blg
+paper/**/*.bbl
+paper/**/*.spl
+paper/**/*.out
+paper/**/*.toc
+
+# OS / editors
+.DS_Store
+.vscode/
+.idea/

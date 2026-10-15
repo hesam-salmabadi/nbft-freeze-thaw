@@ -1,0 +1,16 @@
+group,network,sensor_id,kind,source
+development,SNOTEL,428,ismn_network,
+development,SCAN,142,ismn_network,
+development,RISMA,108,ismn_network,
+development,ARM,54,ismn_network,
+development,USCRN,43,ismn_network,
+development,SOILSCAPE,26,ismn_network,
+development,,63,regional_source,local
+development,,16,regional_source,montmorency
+development,,12,regional_source,tvc_hydraprobe
+development,,6,regional_source,james_bay
+development,,5,regional_source,usarray_ground
+development,,4,regional_source,chapleau
+development,,3,regional_source,kuujjuarapik
+development,,1,regional_source,berms
+development,,1,regional_source,tvc_boike

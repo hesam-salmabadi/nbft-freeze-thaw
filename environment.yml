@@ -1,0 +1,28 @@
+name: nbft
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - pyarrow
+  - xarray
+  - zarr>=3
+  - dask
+  - netcdf4
+  - cfgrib
+  - rioxarray
+  - rechunker
+  - scikit-learn
+  - hmmlearn        # two-state HMM baseline reproducing Walker et al. (2022)
+  - scipy
+  - matplotlib
+  - seaborn
+  - cartopy
+  - joblib
+  - pyyaml
+  - pytest
+  - ruff
+  - pip
+  - pip:
+      - -e .

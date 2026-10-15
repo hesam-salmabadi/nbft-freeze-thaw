@@ -1,0 +1,125 @@
+# Data locations. All paths are relative to `data_root`.
+# Override data_root with the NBFT_DATA_ROOT environment variable,
+# or copy this file to config/paths.local.yaml (gitignored) and edit it; it replaces this file.
+
+data_root: ./data
+
+raw:
+  smap_tb: raw/NSIDC_0738          # SMAP L-band enhanced TB (NSIDC-0738)
+  amsr2_tb: raw/AMSR2              # AMSR2 18.7 / 36.5 GHz TB
+  era5: raw/ERA5
+  ismn: raw/ISMN                   # user-downloaded, not redistributed
+  fluxnet: raw/FLUXNET
+
+timeseries:
+  tb_eq: proc/timeseries/eq_tb.zarr
+  tb_raw: proc/timeseries/eq_tb.zarr               # before gap filling, plotted as points
+  tb_gapfilled: proc/timeseries/eq_tb_gapfilled_median.zarr
+  tb_dav: proc/timeseries/tb_dav_only.zarr
+  labels: proc/timeseries/target_kmeans_rechunked.zarr
+  prob_frozen: proc/timeseries/prob_frozen.zarr    # SFCC probability of frozen, in situ
+  soil_temp_insitu: proc/timeseries/soil_temp.zarr
+  era5_t2m: proc/timeseries/era5_t2m.zarr
+  era5_stl: proc/timeseries/era5_stl.zarr
+  ft_smap: proc/timeseries/ft_status_smap_9km_v2.zarr
+  ft_esdr: proc/timeseries/ft_status_ampm_qc_inv.zarr
+  ft_smos: proc/timeseries/smos_ft_ampm_qc.zarr
+  era5_stl_binary: proc/timeseries/era5_stl_target.zarr
+  fluxnet_daily: proc/timeseries/ameriflux_daily_v5.zarr
+  processing_mask: proc/timeseries/era5_pm.zarr   # SMOS-style seasonal state (1-8)
+  era5_snow_depth: proc/timeseries/era5_swe_daily.zarr   # ERA5 snow depth, mm water equivalent
+  ims_snow: proc/timeseries/ims_snow_binary.zarr   # IMS daily snow cover on the 9 km grid (0/1, 255 no data)
+  era5_t2m_daily: proc/timeseries/era5_t2m_daily_fixed.zarr   # daily mean + 10-day rolling mean
+
+statics:
+  reference_coords: proc/statics/reference_ease_coords.nc
+  landcover: proc/statics/landcover.nc
+  water_fraction: proc/statics/water_fraction.nc
+  ice_fraction: proc/statics/ice_fraction_cci2015.nc
+  canada_alaska_mask: proc/statics/canada_alaska_mask_ease2_v2.nc
+  npr_ref: proc/statics/NPR_{am_pm}_thaw_ref.nc
+  npr_std: proc/statics/NPR_{am_pm}_std.nc
+  ndv_ref: proc/statics/SR_{am_pm}_thaw_ref.nc    # NDV was named SR in legacy code
+  ndv_std: proc/statics/SR_{am_pm}_std.nc
+
+ml_ready:
+  station_metadata_source: insitu/meta.csv   # output of workflow/02_insitu_labels
+
+# In situ labels (sfcc-label, model sfcc-joint-1.1; method and data in a separate paper). They live outside data_root; set absolute paths in config/paths.local.yaml.
+sfcc:
+  data_root: sfcc-label-data
+  catalog: sfcc-label-data/metadata/catalog.csv
+  grid_cells: sfcc-label-data/metadata/sensor_grid_cells.csv
+  standardized: sfcc-label-data/standardized/{source}/{sensor_id}.csv
+  predictions: sfcc-label-data/processed/sfcc-joint-1.1/predictions/{sensor_id}.csv.gz
+  thresholds: sfcc-label-data/processed/sfcc-joint-1.1/thresholds.csv
+  yearly_events: sfcc-label-data/processed/sfcc-joint-1.1/yearly_events.csv
+  manifest: sfcc-label-data/processed/sfcc-joint-1.1/manifest.json
+  # Hourly cell state (sfcc-label grid-labels; frozen/partial/thawed, cut-off 0.9)
+  gridded_cells: sfcc-label-data/processed/sfcc-joint-1.1/gridded/{grid}/cells.csv
+  gridded_sensors: sfcc-label-data/processed/sfcc-joint-1.1/gridded/{grid}/sensors.csv
+  gridded_series: sfcc-label-data/processed/sfcc-joint-1.1/gridded/{grid}/cells/{cell_id}.csv.gz
+  gridded_manifest: sfcc-label-data/processed/sfcc-joint-1.1/gridded/{grid}/manifest.json
+  sensor_terrain: sfcc-label-data/metadata/sensor_terrain.csv
+  sensor_soil: sfcc-label-data/metadata/sensor_soil.csv
+  # Wall-to-wall rasters on every EASE-2 grid: landcover_cci2015, treecover, terrain, resolve_biome, koppen
+  landcover_raster: sfcc-label-data/landcover/{name}_EASE2_{grid}.tif
+  cci_300m: sfcc-label-data/sources/esa_cci_lc/ESACCI-LC-L4-LCCS-Map-300m-P1Y-2015-v2.0.7.tif
+
+# Outputs of this repository.
+cache:
+  # All source variables at the labelled in situ pixels; built by 00a, checked against source
+  # modification times on load.
+  station_cube: nbft/cache/station_cube_{am_pm}.zarr
+
+ml_ready_out:
+  training_table: nbft/ml_ready/training_data_{am_pm}.parquet
+
+model:
+  training_table: nbft/model/training_table.parquet   # development cell-days with model inputs
+  # Evaluation data at the development cell-days (08_extract_evaluation_data.py)
+  eval_soil_temperature: nbft/model/eval_soil_temperature.parquet
+  eval_air_temperature: nbft/model/eval_air_temperature.parquet
+  eval_smos: nbft/model/eval_smos.parquet
+  eval_domain_sample: nbft/model/eval_domain_sample.parquet   # maps + air temperature
+  eval_snow: nbft/model/eval_snow.parquet   # ERA5 snow depth at development and external cells
+  cv_folds: nbft/model/cv_folds.pkl
+  cv_predictions: nbft/model/cv_predictions.parquet   # out-of-fold, used to pick the threshold
+  production_models: nbft/model/production_models.pkl
+
+product:
+  ft_states: nbft/product/ft_states_{am_pm}.zarr
+  ft_states_filtered: nbft/product/ft_states_{am_pm}_filtered.zarr
+  season_summary: nbft/product/season_summary_{am_pm}.nc
+
+phenology:
+  # {source} is 'model' or 'smos'
+  metrics: nbft/phenology/phenology_{source}_{am_pm}.zarr
+  transition: nbft/phenology/transition_{source}_{am_pm}.zarr
+  spatial_mean: nbft/phenology/spatial_mean_{source}_{am_pm}.nc
+
+baseline:
+  hmm_posteriors: nbft/baseline/hmm_posteriors_{pixels}_{am_pm}.parquet
+  hmm_inputs_raw: nbft/baseline/hmm_inputs_raw_am.parquet   # unsmoothed TB at development cells
+
+insitu:
+  # Daily overpass-window probabilities of each sfcc-label sensor (02_insitu_labels/01)
+  sensor_overpass: nbft/insitu/sensor_overpass_{grid}.parquet
+  # Daily cell shares and labels at each cut-off (02_insitu_labels/02)
+  cell_overpass: nbft/insitu/cell_overpass_{grid}.parquet
+  # AM brightness temperatures at every in situ cell (02_insitu_labels/10)
+  cell_satellite: nbft/insitu/cell_satellite_{grid}.parquet
+  # Leave-own-out relabel of sensors with their own thresholds (02_insitu_labels/13)
+  borrowed_overpass: nbft/insitu/borrowed_overpass_{grid}.parquet
+
+figures:
+  site_series: nbft/figures/site_series_{am_pm}.parquet
+
+validation:
+  # External test (04_validation/external_test): cell-days of the external cells and Arctic sites
+  external_days: nbft/validation/external_days.parquet
+  external_predictions: nbft/validation/external_predictions.parquet
+  thermal_background: nbft/validation/thermal_background_{am_pm}.parquet
+  thermal_insitu: nbft/validation/thermal_insitu_{am_pm}.parquet
+  flux_stations: nbft/validation/flux_stations_{am_pm}.parquet
+  flux_stations_balanced: nbft/validation/flux_stations_balanced_{am_pm}.parquet

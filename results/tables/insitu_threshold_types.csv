@@ -1,0 +1,4 @@
+set,type,sensors,sensor_days,own_days
+development,fitted,490,686640,0.754
+development,moisture_never_fitted,144,145996,0.0
+development,temperature_only,624,882910,0.0

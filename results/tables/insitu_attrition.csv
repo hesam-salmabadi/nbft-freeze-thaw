@@ -1,0 +1,10 @@
+step,sensors,cells,cell_years,complete_cell_seasons
+Topsoil sensors in North America with observations in the study period,2144,938.0,,
+  removed by land-cover screen: class_mismatch,-393,,,
+  removed by land-cover screen: class_below_70pct,-380,,,
+  removed by land-cover screen: water_above_15pct,-32,,,
+  removed by land-cover screen: other_above_15pct,-17,,,
+Representative of the land cover of their cell,1322,543.0,,
+  removed: fewer_than_30_days,-61,,,
+  removed: faulty_record,-3,,,
+Development set,1258,539.0,3597.0,3200.0

@@ -1,0 +1,9 @@
+class,group,cells,days_share,weighted_share,land_share,frozen_share
+0-25 m,roughness_class,169,0.352,0.462,0.471,0.096
+25-75 m,roughness_class,65,0.129,0.168,0.257,0.136
+75-150 m,roughness_class,118,0.205,0.173,0.123,0.11
+>150 m,roughness_class,187,0.314,0.197,0.149,0.115
+10-30%,tree_class,55,0.122,0.128,0.157,0.059
+30-60%,tree_class,181,0.314,0.202,0.194,0.12
+<10%,tree_class,152,0.325,0.364,0.377,0.13
+>60%,tree_class,151,0.239,0.307,0.271,0.094

@@ -1,0 +1,5 @@
+group,sensor_bin,partial_fraction,confident_agreement,partial_disagreement,partial_mixed,partial_uncertain,n_cells
+development,1,0.249,1.0,0.0,0.0,1.0,463
+development,2,0.327,1.0,0.001,0.382,0.616,76
+development,3-4,0.036,1.0,0.0,0.649,0.331,78
+development,5+,0.188,1.0,0.0,0.821,0.143,63

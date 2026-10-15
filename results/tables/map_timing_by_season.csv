@@ -1,0 +1,41 @@
+season,event,cells,model_median,smos_median,model_median_date,smos_median_date
+2015,first_transition,166737,96.0,100.0,05 Nov,09 Nov
+2015,first_frozen,146136,99.0,106.0,08 Nov,15 Nov
+2015,last_transition,166737,274.0,263.0,02 May,21 Apr
+2015,autumn,146136,0.0,8.0,,
+2015,spring,146136,7.0,2.0,,
+2016,first_transition,166404,92.0,109.0,01 Nov,18 Nov
+2016,first_frozen,144071,102.0,114.0,11 Nov,23 Nov
+2016,last_transition,166404,278.0,270.0,06 May,28 Apr
+2016,autumn,144071,1.0,8.0,,
+2016,spring,144071,8.0,2.0,,
+2017,first_transition,167419,92.0,96.0,01 Nov,05 Nov
+2017,first_frozen,145835,94.0,100.0,03 Nov,09 Nov
+2017,last_transition,167419,279.0,269.0,07 May,27 Apr
+2017,autumn,145835,0.0,7.0,,
+2017,spring,145835,7.0,1.0,,
+2018,first_transition,171370,88.0,93.0,28 Oct,02 Nov
+2018,first_frozen,152353,92.0,101.0,01 Nov,10 Nov
+2018,last_transition,171370,280.0,263.0,08 May,21 Apr
+2018,autumn,152353,0.0,8.0,,
+2018,spring,152353,8.0,2.0,,
+2019,first_transition,168368,88.0,95.0,28 Oct,04 Nov
+2019,first_frozen,144969,94.0,102.0,03 Nov,11 Nov
+2019,last_transition,168368,286.0,271.0,14 May,29 Apr
+2019,autumn,144969,0.0,8.0,,
+2019,spring,144969,7.0,2.0,,
+2020,first_transition,171254,83.0,86.0,23 Oct,26 Oct
+2020,first_frozen,149402,87.0,95.0,27 Oct,04 Nov
+2020,last_transition,171254,278.0,260.0,06 May,18 Apr
+2020,autumn,149402,0.0,8.0,,
+2020,spring,149402,7.0,2.0,,
+2021,first_transition,167177,102.0,104.0,11 Nov,13 Nov
+2021,first_frozen,147048,103.0,109.0,12 Nov,18 Nov
+2021,last_transition,167177,283.0,272.0,11 May,30 Apr
+2021,autumn,147048,0.0,7.0,,
+2021,spring,147048,9.0,2.0,,
+2022,first_transition,168596,95.0,99.0,04 Nov,08 Nov
+2022,first_frozen,149113,98.0,103.0,07 Nov,12 Nov
+2022,last_transition,168596,275.0,270.0,03 May,28 Apr
+2022,autumn,149113,0.0,6.0,,
+2022,spring,149113,8.0,2.0,,

@@ -1,0 +1,19 @@
+retrieval,label,p25,median,p75,cells
+hmm,thawed,0.0,0.0,0.847,north of 45N
+hmm,partial,0.0,0.997,1.0,north of 45N
+hmm,frozen,1.0,1.0,1.0,north of 45N
+model,thawed,0.026,0.069,0.137,north of 45N
+model,partial,0.121,0.304,0.573,north of 45N
+model,frozen,0.543,0.694,0.807,north of 45N
+hmm,thawed,0.0,0.004,1.0,all cells
+hmm,partial,0.001,1.0,1.0,all cells
+hmm,frozen,0.999,1.0,1.0,all cells
+model,thawed,0.021,0.064,0.142,all cells
+model,partial,0.115,0.261,0.483,all cells
+model,frozen,0.396,0.63,0.779,all cells
+hmm,thawed,0.0,0.0,0.134,"north of 45N, agreeing cells"
+hmm,partial,0.0,0.998,1.0,"north of 45N, agreeing cells"
+hmm,frozen,1.0,1.0,1.0,"north of 45N, agreeing cells"
+model,thawed,0.034,0.078,0.142,"north of 45N, agreeing cells"
+model,partial,0.127,0.303,0.584,"north of 45N, agreeing cells"
+model,frozen,0.529,0.673,0.792,"north of 45N, agreeing cells"

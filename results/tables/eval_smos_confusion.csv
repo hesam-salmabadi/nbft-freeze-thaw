@@ -1,0 +1,7 @@
+,label,frozen,thawed,transitional
+model,frozen,0.734,0.118,0.148
+model,partial,0.27,0.269,0.461
+model,thawed,0.038,0.838,0.125
+FT-SMOS,frozen,0.852,0.093,0.055
+FT-SMOS,partial,0.534,0.367,0.099
+FT-SMOS,thawed,0.095,0.872,0.033

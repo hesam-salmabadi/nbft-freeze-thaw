@@ -1,0 +1,6 @@
+# Copy to config/paths.local.yaml (gitignored) and adjust.
+data_root: /path/to/data
+
+ml_ready:
+  # Absolute paths are used as-is
+  station_metadata_source: /path/to/meta.csv

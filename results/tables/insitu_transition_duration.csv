@@ -1,0 +1,5 @@
+set,region,tree_class,n_cells,duration_median,duration_q25,duration_q75,never_froze_share_median,onset_days_after_1aug
+development,north_america,10-30%,38,4.8,2.0,18.9,0.4,122.0
+development,north_america,30-60%,158,6.0,3.0,13.6,0.5,109.5
+development,north_america,<10%,117,6.0,2.0,11.0,0.1,121.0
+development,north_america,>60%,104,11.0,3.6,23.5,0.8,116.2

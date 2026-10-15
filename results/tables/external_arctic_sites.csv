@@ -1,0 +1,4 @@
+region,cells,blocks,days,share_thawed,recall_thawed,precision_thawed,f1_thawed,share_transitional,recall_transitional,precision_transitional,f1_transitional,share_frozen,recall_frozen,precision_frozen,f1_frozen,macro_f1,kappa,pr_auc_frozen,median_soil_t_frozen,median_soil_t_thawed,median_soil_t_transitional
+all,2,2,791,0.129,0.931,0.88,0.905,0.057,0.111,0.714,0.192,0.814,0.986,0.939,0.962,0.686,0.753,0.999,-14.642,2.172,0.1
+Cambridge Bay,1,1,547,0.095,1.0,0.812,0.897,0.007,0.0,0.0,0.0,0.898,0.984,1.0,0.992,0.629,0.888,1.0,-17.27,1.896,
+George River,1,1,244,0.205,0.86,0.977,0.915,0.168,0.122,0.714,0.208,0.627,0.993,0.788,0.879,0.667,0.61,0.999,-6.964,2.726,0.1

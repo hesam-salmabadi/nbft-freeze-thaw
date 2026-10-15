@@ -1,0 +1,4 @@
+all_sensors,frozen,partial,thawed
+frozen,0.04,0.003,0.0
+partial,0.013,0.224,0.075
+thawed,0.0,0.012,0.635

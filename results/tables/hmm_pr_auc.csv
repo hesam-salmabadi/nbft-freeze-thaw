@@ -1,0 +1,16 @@
+cells,tree_class,n_cells,days,frozen_share,pr_auc_hmm,pr_auc_model
+north of 45N,all,133,77449,0.303,0.736,0.919
+north of 45N,10-30%,6,2991,0.372,0.916,0.982
+north of 45N,30-60%,13,8084,0.329,0.635,0.826
+north of 45N,<10%,47,30667,0.385,0.845,0.971
+north of 45N,>60%,67,35707,0.191,0.641,0.904
+all cells,all,537,298998,0.14,0.491,0.819
+all cells,10-30%,55,31947,0.098,0.328,0.763
+all cells,30-60%,180,89147,0.151,0.372,0.635
+all cells,<10%,151,98104,0.16,0.511,0.832
+all cells,>60%,151,79800,0.102,0.457,0.821
+"north of 45N, agreeing cells",all,114,68161,0.298,0.779,0.897
+"north of 45N, agreeing cells",10-30%,5,1961,0.271,0.967,0.986
+"north of 45N, agreeing cells",30-60%,12,6858,0.344,0.65,0.836
+"north of 45N, agreeing cells",<10%,39,26541,0.321,0.894,0.953
+"north of 45N, agreeing cells",>60%,58,32801,0.233,0.695,0.905

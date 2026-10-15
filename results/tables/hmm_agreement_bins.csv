@@ -1,0 +1,10 @@
+cells,hmm_bin,days,share_of_days,agreement
+north of 45N,<0.25,41711,0.547,0.917
+north of 45N,0.25-0.75,1587,0.026,0.462
+north of 45N,>0.75,34151,0.427,0.59
+all cells,<0.25,165825,0.532,0.957
+all cells,0.25-0.75,8521,0.033,0.494
+all cells,>0.75,124652,0.434,0.265
+"north of 45N, agreeing cells",<0.25,36605,0.564,0.946
+"north of 45N, agreeing cells",0.25-0.75,1338,0.021,0.509
+"north of 45N, agreeing cells",>0.75,30218,0.415,0.633

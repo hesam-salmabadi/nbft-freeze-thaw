@@ -1,0 +1,5 @@
+index,thawed_winter_called_frozen,thawed_other_called_frozen,frozen_detected
+npr,0.278,0.32,0.797
+ndv,0.244,0.085,0.88
+ndh,0.164,0.086,0.686
+wd,0.225,0.105,0.827

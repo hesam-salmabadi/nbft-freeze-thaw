@@ -1,0 +1,5 @@
+label,days,share_differ,model_matches,smos_matches,neither
+all,605118,0.254,0.461,0.314,0.225
+frozen,74315,0.216,0.133,0.678,0.189
+partial,166376,0.534,0.771,0.094,0.134
+thawed,364427,0.162,0.218,0.433,0.349

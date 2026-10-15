@@ -1,0 +1,6 @@
+region,cells,blocks,days,share_thawed,recall_thawed,precision_thawed,f1_thawed,share_transitional,recall_transitional,precision_transitional,f1_transitional,share_frozen,recall_frozen,precision_frozen,f1_frozen,macro_f1,kappa,pr_auc_frozen
+all,75,13,39967,0.56,0.951,0.775,0.854,0.106,0.224,0.354,0.275,0.334,0.621,0.845,0.716,0.615,0.551,0.919
+Finland,2,1,3956,0.38,0.961,0.923,0.942,0.296,0.47,0.821,0.597,0.325,0.936,0.698,0.8,0.78,0.708,0.997
+Mongolia and northern China,23,4,9057,0.486,0.923,0.737,0.819,0.104,0.226,0.208,0.216,0.41,0.636,0.938,0.758,0.598,0.538,0.919
+Romania,3,3,5398,0.873,0.985,0.917,0.95,0.068,0.151,0.289,0.199,0.059,0.264,0.596,0.366,0.505,0.356,0.608
+Tibetan Plateau,47,5,21556,0.468,0.935,0.665,0.778,0.093,0.099,0.313,0.15,0.44,0.592,0.832,0.692,0.54,0.469,0.916

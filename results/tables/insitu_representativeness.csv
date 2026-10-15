@@ -1,0 +1,5 @@
+variable,group,n_cells,median,domain_median,ks_d,domain_within_p5_p95
+tree_cover_pct,development,539,41.331,25.207,0.152,0.781
+elevation_std_m,development,539,101.679,28.081,0.294,0.932
+elevation_m,development,539,1482.883,429.694,0.382,0.952
+slope_deg,development,539,5.608,1.768,0.283,0.91

@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the article below."
+title: "Code for: Non-Binary Retrievals of Soil Freeze-Thaw Dynamics Using Multi-Frequency Passive Microwave Data"
+authors:
+  - family-names: Salmabadi
+    given-names: Hesam
+  - family-names: Berg
+    given-names: Aaron
+  - family-names: Roy
+    given-names: Alexandre
+license: MIT
+version: 0.1.0
+preferred-citation:
+  type: article
+  title: "Non-Binary Retrievals of Soil Freeze-Thaw Dynamics Using Multi-Frequency Passive Microwave Data"
+  authors:
+    - family-names: Salmabadi
+      given-names: Hesam
+    - family-names: Berg
+      given-names: Aaron
+    - family-names: Roy
+      given-names: Alexandre
+  journal: "Remote Sensing of Environment"
+  status: submitted

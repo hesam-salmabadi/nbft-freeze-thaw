@@ -1,0 +1,17 @@
+phase,condition,share_of_phase_days,error_rate,share_of_all_errors
+autumn,no snow,0.77,0.087,0.142
+autumn,"snow, air <= 0",0.193,0.467,0.191
+autumn,"snow, air > 0",0.037,0.397,0.031
+autumn,all,1.0,0.172,0.364
+spring,no snow,0.775,0.085,0.146
+spring,"snow, air <= 0",0.121,0.332,0.09
+spring,"snow, air > 0",0.104,0.429,0.1
+spring,all,1.0,0.15,0.336
+winter,no snow,0.431,0.174,0.074
+winter,"snow, air <= 0",0.481,0.394,0.187
+winter,"snow, air > 0",0.087,0.457,0.039
+winter,all,1.0,0.304,0.3
+all,no snow,0.709,0.096,0.362
+all,"snow, air <= 0",0.216,0.405,0.468
+all,"snow, air > 0",0.074,0.429,0.17
+all,all,1.0,0.187,1.0

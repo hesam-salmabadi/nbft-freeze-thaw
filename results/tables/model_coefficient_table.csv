@@ -1,0 +1,13 @@
+class,term,coefficient,fold_min,fold_max
+transitional,intercept,-1.614,-1.809,-1.509
+transitional,z_npr,0.033,-0.0,0.051
+transitional,z_ndv,0.322,0.286,0.354
+transitional,tree,0.225,-0.229,0.64
+transitional,tree_x_npr,-0.269,-0.302,-0.185
+transitional,tree_x_ndv,-0.14,-0.199,-0.088
+frozen,intercept,-2.359,-2.582,-2.014
+frozen,z_npr,-0.184,-0.233,-0.133
+frozen,z_ndv,0.357,0.326,0.39
+frozen,tree,-3.221,-3.77,-2.808
+frozen,tree_x_npr,-0.747,-0.88,-0.604
+frozen,tree_x_ndv,-0.133,-0.183,-0.087

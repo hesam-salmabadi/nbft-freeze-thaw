@@ -1,0 +1,5 @@
+index,auc,kept,correlated_with
+ndv,0.947,True,
+wd,0.928,False,ndv
+npr,0.834,True,
+ndh,0.824,False,ndv

@@ -1,0 +1,30 @@
+class,domain,development,attribute
+forest,0.454,0.612,cci_class
+low_vegetation,0.348,0.217,cci_class
+agriculture,0.146,0.167,cci_class
+other,0.049,0.0,cci_class
+wetland,0.003,0.004,cci_class
+Df,0.532,0.503,koppen_group
+Cf,0.132,0.13,koppen_group
+BS,0.117,0.106,koppen_group
+ET,0.098,0.0,koppen_group
+Ds,0.06,0.186,koppen_group
+BW,0.026,0.026,koppen_group
+Cs,0.022,0.035,koppen_group
+Dw,0.006,0.009,koppen_group
+EF,0.005,0.0,koppen_group
+Am,0.001,0.006,koppen_group
+Aw,0.0,0.0,koppen_group
+Af,0.0,0.0,koppen_group
+Boreal Forests/Taiga,0.24,0.056,biome
+"Temperate Grasslands, Savannas & Shrublands",0.218,0.197,biome
+Tundra,0.178,0.03,biome
+Temperate Broadleaf & Mixed Forests,0.147,0.102,biome
+Temperate Conifer Forests,0.116,0.449,biome
+Deserts & Xeric Shrublands,0.087,0.145,biome
+"Mediterranean Forests, Woodlands & Scrub",0.007,0.009,biome
+"Tropical & Subtropical Grasslands, Savannas & Shrublands",0.004,0.006,biome
+Rock and Ice,0.002,0.0,biome
+Flooded Grasslands & Savannas,0.001,0.006,biome
+Tropical & Subtropical Coniferous Forests,0.0,0.002,biome
+Mangroves,0.0,0.0,biome

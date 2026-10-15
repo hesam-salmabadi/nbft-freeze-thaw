@@ -1,0 +1,46 @@
+event,group_by,group,cells,model_median,smos_median,difference_median,difference_p25,difference_p75,model_median_date,smos_median_date
+first_transition,all,all,171344,93.4,99.0,-2.9,-7.9,4.1,02 Nov,08 Nov
+first_transition,roughness_class,0-25 m,84886,97.0,99.6,-1.4,-5.8,5.9,06 Nov,09 Nov
+first_transition,roughness_class,25-75 m,43266,93.9,100.2,-2.9,-7.5,4.0,03 Nov,09 Nov
+first_transition,roughness_class,75-150 m,18893,89.9,98.1,-4.0,-9.0,3.1,30 Oct,07 Nov
+first_transition,roughness_class,>150 m,24299,76.2,88.6,-9.6,-16.9,-3.2,16 Oct,29 Oct
+first_transition,tree_class,10-30%,26479,92.6,97.9,-3.5,-8.4,2.8,02 Nov,07 Nov
+first_transition,tree_class,30-60%,35934,91.6,97.9,-4.4,-8.9,1.4,01 Nov,07 Nov
+first_transition,tree_class,<10%,68522,79.4,84.2,-2.5,-7.0,4.4,19 Oct,24 Oct
+first_transition,tree_class,>60%,40409,103.2,106.8,-1.6,-7.8,6.8,12 Nov,16 Nov
+first_frozen,all,all,150873,98.0,106.4,-7.0,-13.5,6.7,07 Nov,15 Nov
+first_frozen,roughness_class,0-25 m,77517,99.4,107.4,-7.6,-13.0,3.6,08 Nov,16 Nov
+first_frozen,roughness_class,25-75 m,37944,99.4,108.6,-7.2,-14.1,5.8,08 Nov,18 Nov
+first_frozen,roughness_class,75-150 m,15687,97.2,97.9,-1.6,-11.0,14.3,06 Nov,07 Nov
+first_frozen,roughness_class,>150 m,19725,87.4,94.4,-6.2,-16.1,15.3,27 Oct,03 Nov
+first_frozen,tree_class,10-30%,23865,93.4,105.8,-9.1,-14.8,3.2,02 Nov,15 Nov
+first_frozen,tree_class,30-60%,31439,97.0,106.6,-6.9,-13.8,7.1,06 Nov,16 Nov
+first_frozen,tree_class,<10%,66709,78.2,93.8,-9.0,-14.4,-0.9,18 Oct,03 Nov
+first_frozen,tree_class,>60%,28860,119.9,112.6,6.5,-6.4,26.1,29 Nov,22 Nov
+last_transition,all,all,171344,278.5,266.1,7.4,1.0,14.9,06 May,24 Apr
+last_transition,roughness_class,0-25 m,84886,275.1,267.6,4.6,-0.9,9.9,03 May,26 Apr
+last_transition,roughness_class,25-75 m,43266,276.6,263.1,7.5,1.5,13.6,05 May,21 Apr
+last_transition,roughness_class,75-150 m,18893,278.9,261.4,12.5,5.0,19.5,07 May,19 Apr
+last_transition,roughness_class,>150 m,24299,293.4,269.5,21.5,12.9,30.4,21 May,28 Apr
+last_transition,tree_class,10-30%,26479,282.0,272.0,8.8,1.6,16.8,10 May,30 Apr
+last_transition,tree_class,30-60%,35934,280.5,268.9,10.2,4.5,18.0,08 May,27 Apr
+last_transition,tree_class,<10%,68522,303.0,288.6,4.8,-1.5,12.0,31 May,17 May
+last_transition,tree_class,>60%,40409,266.0,257.9,8.1,2.1,15.5,24 Apr,16 Apr
+autumn,all,all,150873,3.5,9.8,-5.1,-8.9,5.1,,
+autumn,roughness_class,0-25 m,77517,1.1,9.1,-6.1,-9.1,-0.9,,
+autumn,roughness_class,25-75 m,37944,4.4,10.5,-5.1,-9.5,5.4,,
+autumn,roughness_class,75-150 m,15687,10.8,10.2,0.4,-6.9,15.9,,
+autumn,roughness_class,>150 m,19725,13.5,11.0,2.0,-6.5,24.9,,
+autumn,tree_class,10-30%,23865,3.0,9.6,-5.8,-9.0,2.7,,
+autumn,tree_class,30-60%,31439,6.5,10.0,-3.5,-8.2,9.9,,
+autumn,tree_class,<10%,66709,0.1,8.8,-6.8,-10.1,-3.8,,
+autumn,tree_class,>60%,28860,20.8,11.4,8.8,-3.5,27.5,,
+spring,all,all,150873,9.6,4.9,5.4,-1.5,16.9,,
+spring,roughness_class,0-25 m,77517,6.8,5.5,1.5,-3.5,7.6,,
+spring,roughness_class,25-75 m,37944,11.1,4.6,7.2,0.0,19.4,,
+spring,roughness_class,75-150 m,15687,19.0,2.6,15.8,6.6,29.8,,
+spring,roughness_class,>150 m,19725,24.6,2.9,20.0,9.5,38.4,,
+spring,tree_class,10-30%,23865,8.5,5.0,4.2,-2.5,13.0,,
+spring,tree_class,30-60%,31439,12.6,5.6,8.0,0.1,20.3,,
+spring,tree_class,<10%,66709,5.4,4.1,1.9,-3.3,7.5,,
+spring,tree_class,>60%,28860,30.8,6.2,25.8,11.0,45.0,,

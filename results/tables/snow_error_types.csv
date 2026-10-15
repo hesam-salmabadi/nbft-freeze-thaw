@@ -1,0 +1,73 @@
+condition,label,called,share_of_phase_errors,phase
+no snow,frozen,thawed,0.099,autumn
+no snow,frozen,transitional,0.027,autumn
+no snow,partial,frozen,0.022,autumn
+no snow,partial,thawed,0.116,autumn
+no snow,thawed,frozen,0.018,autumn
+no snow,thawed,transitional,0.107,autumn
+"snow, air <= 0",frozen,thawed,0.032,autumn
+"snow, air <= 0",frozen,transitional,0.073,autumn
+"snow, air <= 0",partial,frozen,0.123,autumn
+"snow, air <= 0",partial,thawed,0.039,autumn
+"snow, air <= 0",thawed,frozen,0.091,autumn
+"snow, air <= 0",thawed,transitional,0.166,autumn
+"snow, air > 0",frozen,thawed,0.003,autumn
+"snow, air > 0",frozen,transitional,0.003,autumn
+"snow, air > 0",partial,frozen,0.013,autumn
+"snow, air > 0",partial,thawed,0.022,autumn
+"snow, air > 0",thawed,frozen,0.007,autumn
+"snow, air > 0",thawed,transitional,0.038,autumn
+no snow,frozen,thawed,0.011,spring
+no snow,frozen,transitional,0.006,spring
+no snow,partial,frozen,0.007,spring
+no snow,partial,thawed,0.185,spring
+no snow,thawed,frozen,0.063,spring
+no snow,thawed,transitional,0.163,spring
+"snow, air <= 0",frozen,thawed,0.003,spring
+"snow, air <= 0",frozen,transitional,0.026,spring
+"snow, air <= 0",partial,frozen,0.133,spring
+"snow, air <= 0",partial,thawed,0.025,spring
+"snow, air <= 0",thawed,frozen,0.019,spring
+"snow, air <= 0",thawed,transitional,0.062,spring
+"snow, air > 0",frozen,thawed,0.002,spring
+"snow, air > 0",frozen,transitional,0.018,spring
+"snow, air > 0",partial,frozen,0.055,spring
+"snow, air > 0",partial,thawed,0.117,spring
+"snow, air > 0",thawed,frozen,0.009,spring
+"snow, air > 0",thawed,transitional,0.096,spring
+no snow,frozen,thawed,0.049,winter
+no snow,frozen,transitional,0.016,winter
+no snow,partial,frozen,0.009,winter
+no snow,partial,thawed,0.109,winter
+no snow,thawed,frozen,0.018,winter
+no snow,thawed,transitional,0.044,winter
+"snow, air <= 0",frozen,thawed,0.029,winter
+"snow, air <= 0",frozen,transitional,0.111,winter
+"snow, air <= 0",partial,frozen,0.232,winter
+"snow, air <= 0",partial,thawed,0.046,winter
+"snow, air <= 0",thawed,frozen,0.053,winter
+"snow, air <= 0",thawed,transitional,0.152,winter
+"snow, air > 0",frozen,thawed,0.004,winter
+"snow, air > 0",frozen,transitional,0.009,winter
+"snow, air > 0",partial,frozen,0.025,winter
+"snow, air > 0",partial,thawed,0.034,winter
+"snow, air > 0",thawed,frozen,0.005,winter
+"snow, air > 0",thawed,transitional,0.054,winter
+no snow,frozen,thawed,0.054,all
+no snow,frozen,transitional,0.017,all
+no snow,partial,frozen,0.013,all
+no snow,partial,thawed,0.137,all
+no snow,thawed,frozen,0.033,all
+no snow,thawed,transitional,0.107,all
+"snow, air <= 0",frozen,thawed,0.022,all
+"snow, air <= 0",frozen,transitional,0.069,all
+"snow, air <= 0",partial,frozen,0.159,all
+"snow, air <= 0",partial,thawed,0.036,all
+"snow, air <= 0",thawed,frozen,0.056,all
+"snow, air <= 0",thawed,transitional,0.127,all
+"snow, air > 0",frozen,thawed,0.003,all
+"snow, air > 0",frozen,transitional,0.01,all
+"snow, air > 0",partial,frozen,0.031,all
+"snow, air > 0",partial,thawed,0.057,all
+"snow, air > 0",thawed,frozen,0.007,all
+"snow, air > 0",thawed,transitional,0.062,all
